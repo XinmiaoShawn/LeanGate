@@ -1,0 +1,500 @@
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: 300;
+  background-color: #fff;
+}
+.content {
+  width: 1000px;
+  padding: 25px 50px;
+  margin: 25px auto;
+  background-color: white;
+  box-shadow: 0px 0px 10px #999;
+  border-radius: 15px;
+  font-family: "Google Sans";
+}
+.contentblock {
+  width: 950px;
+  margin: 0 auto;
+  padding: 0;
+  border-spacing: 25px 0;
+}
+.contentblock td {
+  background-color: #fff;
+  padding: 25px 50px;
+  vertical-align: top;
+  box-shadow: 0px 0px 10px #999;
+  border-radius: 15px;
+}
+a, a:visited {
+  color: #224b8d;
+  font-weight: 300;
+}
+#authors {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+#conference {
+  text-align: center;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+#authors a {
+  margin: 0 10px;
+}
+h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 300;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+code {
+  display: block;
+  padding: 10px;
+  margin: 10px 10px;
+}
+p {
+  line-height: 25px;
+  text-align: justify;
+}
+p code {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+.section-note {
+  margin-top: -6px;
+  margin-bottom: 18px;
+  color: #556270;
+  text-align: left;
+}
+#teasers {
+  margin: 0 auto;
+}
+#teasers td {
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+}
+#teasers img {
+  width: 250px;
+}
+#results img {
+  width: 133px;
+}
+#seeintodark {
+  margin: 0 auto;
+}
+#sift {
+  margin: 0 auto;
+}
+#sift img {
+  width: 250px;
+}
+.downloadpaper {
+  padding-left: 20px;
+  float: right;
+  text-align: center;
+}
+.downloadpaper a {
+  font-weight: bold;
+  text-align: center;
+}
+.teaser-img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.teaser-gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.summary-img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.video-iframe {
+  width: 1000;
+  height: 800;
+  margin: auto;
+  display: block;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.image {
+  flex-basis: 40%
+}
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.boxshadow {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 2px 2px 5px #888888;
+}
+.spacertr {
+  height: 8px;
+}
+.spacertd {
+  width: 40px;
+}
+.placeholder-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.placeholder-paragraph,
+.placeholder-code {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.placeholder-paragraph.compact {
+  margin-bottom: 28px;
+}
+.placeholder-links {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 26px;
+}
+.project-links {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 26px;
+}
+.project-link,
+.project-link:visited {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+  height: 38px;
+  padding: 0 20px;
+  border-radius: 999px;
+  border: 1px solid #cfd6de;
+  background: linear-gradient(90deg, #eceff3 0%, #f6f8fa 100%);
+  color: #1f2d3d;
+  text-decoration: none;
+}
+.project-link[aria-disabled="true"] {
+  cursor: default;
+}
+.placeholder-line,
+.placeholder-pill,
+.placeholder-media {
+  display: block;
+  background: linear-gradient(90deg, #eceff3 0%, #f6f8fa 100%);
+  border: 1px dashed #cfd6de;
+}
+.placeholder-line {
+  width: 100%;
+  height: 18px;
+  border-radius: 999px;
+}
+.placeholder-line.short {
+  width: 62%;
+}
+.placeholder-line.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+.placeholder-title {
+  width: 86%;
+  height: 38px;
+}
+.placeholder-meta {
+  width: 52%;
+}
+.placeholder-caption {
+  width: 68%;
+  margin-top: 22px;
+}
+.placeholder-heading {
+  width: 220px;
+  height: 28px;
+}
+.placeholder-pill {
+  width: 120px;
+  height: 38px;
+  border-radius: 999px;
+}
+.placeholder-media {
+  width: 100%;
+  border-radius: 16px;
+}
+.hero-media {
+  min-height: 420px;
+  margin-top: 20px;
+}
+.hero-pdf {
+  display: block;
+  width: 100%;
+  height: 720px;
+  margin-top: 20px;
+  border: 1px solid #d7dde5;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border: 1px solid #d7dde5;
+  border-radius: 16px;
+}
+.hero-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border: 1px solid #d7dde5;
+  border-radius: 16px;
+  background: #000;
+}
+.section-pdf {
+  display: block;
+  width: 100%;
+  height: 560px;
+  margin-top: 24px;
+  border: 1px solid #d7dde5;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.tall-pdf {
+  height: 640px;
+}
+.section-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 24px;
+  border: 1px solid #d7dde5;
+  border-radius: 16px;
+}
+.tall-image {
+  max-height: 640px;
+  object-fit: contain;
+}
+.split-pdf-row {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+}
+.split-pdf {
+  display: block;
+  flex: 1 1 0;
+  width: calc(50% - 12px);
+  height: 420px;
+  border: 1px solid #d7dde5;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.background-figure-grid {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin-top: 24px;
+}
+.figure-panel {
+  flex: 0 0 calc(50% - 12px);
+  width: calc(50% - 12px);
+  min-width: 0;
+}
+.figure-panel-side {
+  min-height: 0;
+}
+.split-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.benchmark-table-wrap {
+  border: 1px solid #d7dde5;
+  border-radius: 16px;
+  background-color: #fff;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 10px 12px;
+}
+.benchmark-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  line-height: 1.2;
+}
+.benchmark-table th,
+.benchmark-table td {
+  padding: 5px 6px;
+  border-bottom: 1px solid #e8edf2;
+  text-align: right;
+  white-space: nowrap;
+}
+.benchmark-table th:first-child,
+.benchmark-table td:first-child {
+  text-align: left;
+}
+.benchmark-table thead th {
+  font-size: 11px;
+  font-weight: 600;
+  color: #44515f;
+  border-bottom: 1px solid #ccd5df;
+}
+.benchmark-table tbody th {
+  font-weight: 500;
+}
+.benchmark-table .group-row td {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+  font-weight: 600;
+  color: #1f2d3d;
+  background: #f6f8fb;
+  border-top: 1px solid #ccd5df;
+  border-bottom: 1px solid #ccd5df;
+}
+.benchmark-table .delta-row th,
+.benchmark-table .delta-row td {
+  font-style: italic;
+}
+.benchmark-table .na {
+  color: #7c8793;
+}
+.results-table thead th {
+  vertical-align: bottom;
+}
+.results-table .dataset-cell {
+  vertical-align: middle;
+  font-weight: 600;
+}
+.results-table .model-cell {
+  font-weight: 500;
+}
+.results-table .group-start th,
+.results-table .group-start td {
+  border-top: 1px solid #ccd5df;
+}
+.results-table .highlight-row th,
+.results-table .highlight-row td {
+  font-weight: 600;
+  background: #f7fafc;
+}
+.results-table .secondary-group-row {
+  text-align: left;
+  font-weight: 500;
+  background: #fbfcfd;
+}
+.indent-method {
+  display: inline-block;
+  padding-left: 14px;
+}
+.section-media {
+  min-height: 320px;
+  margin-top: 24px;
+}
+.grid-media {
+  min-height: 360px;
+}
+.tall {
+  min-height: 420px;
+}
+.placeholder-code {
+  padding: 16px 10px 0;
+}
+.pdf-fallback {
+  padding: 24px;
+  text-align: center;
+}
+@media (max-width: 1100px) {
+  .content {
+    width: calc(100% - 48px);
+    padding: 24px;
+  }
+}
+@media (max-width: 720px) {
+  .content {
+    width: calc(100% - 24px);
+    padding: 18px;
+    margin: 12px auto;
+  }
+  .placeholder-title,
+  .placeholder-meta,
+  .placeholder-caption,
+  .placeholder-heading,
+  .placeholder-line.short {
+    width: 100%;
+  }
+  .placeholder-links {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .project-links {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .hero-media,
+  .section-media,
+  .grid-media,
+  .tall {
+    min-height: 220px;
+  }
+  .hero-pdf {
+    height: 420px;
+  }
+  .hero-image {
+    margin-top: 20px;
+  }
+  .hero-video {
+    margin-top: 20px;
+  }
+  .section-pdf,
+  .tall-pdf {
+    height: 320px;
+  }
+  .tall-image {
+    max-height: none;
+  }
+  .split-pdf-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .split-pdf {
+    width: 100%;
+    height: 320px;
+  }
+  .background-figure-grid {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .figure-panel-side {
+    width: 100%;
+  }
+  .benchmark-table-wrap {
+    overflow-x: auto;
+  }
+  .figure-panel {
+    flex-basis: auto;
+    width: 100%;
+  }
+}

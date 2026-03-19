@@ -1,0 +1,6 @@
+@misc{accelerating_transformer_based_monocular_slam,
+  title={Accelerating Transformer-Based Monocular SLAM via Geometric Utility Scoring},
+  author={{Author information to be added}},
+  year={2026},
+  note={BibTeX placeholder. Update authors, venue, and paper link.}
+}
