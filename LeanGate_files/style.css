@@ -390,6 +390,7 @@ p code {
 }
 .results-table .model-cell {
   font-weight: 500;
+  text-align: left;
 }
 .results-table .group-start th,
 .results-table .group-start td {
