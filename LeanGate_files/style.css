@@ -37,6 +37,24 @@ a, a:visited {
   margin-bottom: 20px;
   font-size: 20px;
 }
+#authors p {
+  margin: 0;
+  text-align: center;
+}
+#authors .author-line {
+  font-size: 20px;
+  line-height: 1.7;
+}
+#authors .affiliation-line {
+  margin-top: 8px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #4f5d6b;
+}
+#authors sup {
+  font-size: 0.7em;
+  vertical-align: super;
+}
 #conference {
   text-align: center;
   margin-bottom: 20px;
@@ -438,6 +456,13 @@ p code {
     width: calc(100% - 24px);
     padding: 18px;
     margin: 12px auto;
+  }
+  #authors .author-line {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  #authors .affiliation-line {
+    font-size: 14px;
   }
   .placeholder-title,
   .placeholder-meta,
